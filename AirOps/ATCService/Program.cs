@@ -1,9 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using ATCService.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMem"));
 
+builder.Services.AddScoped<IBoardingRepo, BoardingRepo>();
+builder.Services.AddScoped<ICommsRepo, CommsRepo>();
+builder.Services.AddScoped<ITarmacSafetyRepo, TarmacSafetyRepo>();
+builder.Services.AddScoped<ITarmacSecurityRepo, TarmacSecurityRepo>();
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -15,6 +25,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+DBSeed.PrepPopulation(app);
 
 app.UseHttpsRedirection();
 

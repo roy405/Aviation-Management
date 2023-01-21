@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AviationManagement\\AirOps\\ATCService\\ATCService.csproj": {}
+    "D:\\GIT\\aviation-management\\airops\\ATCService\\ATCService.csproj": {}
   },
   "projects": {
-    "D:\\AviationManagement\\AirOps\\ATCService\\ATCService.csproj": {
+    "D:\\GIT\\aviation-management\\airops\\ATCService\\ATCService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AviationManagement\\AirOps\\ATCService\\ATCService.csproj",
+        "projectUniqueName": "D:\\GIT\\aviation-management\\airops\\ATCService\\ATCService.csproj",
         "projectName": "ATCService",
-        "projectPath": "D:\\AviationManagement\\AirOps\\ATCService\\ATCService.csproj",
+        "projectPath": "D:\\GIT\\aviation-management\\airops\\ATCService\\ATCService.csproj",
         "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-        "outputPath": "D:\\AviationManagement\\AirOps\\ATCService\\obj\\",
+        "outputPath": "D:\\GIT\\aviation-management\\airops\\ATCService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Roy\\AppData\\Roaming\\NuGet\\NuGet.Config",
