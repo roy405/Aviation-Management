@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AviationManagement\\AirOps\\AircraftApronService\\AircraftApronService.csproj": {}
+    "D:\\GIT\\aviation-management\\airops\\AircraftApronService\\AircraftApronService.csproj": {}
   },
   "projects": {
-    "D:\\AviationManagement\\AirOps\\AircraftApronService\\AircraftApronService.csproj": {
+    "D:\\GIT\\aviation-management\\airops\\AircraftApronService\\AircraftApronService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AviationManagement\\AirOps\\AircraftApronService\\AircraftApronService.csproj",
+        "projectUniqueName": "D:\\GIT\\aviation-management\\airops\\AircraftApronService\\AircraftApronService.csproj",
         "projectName": "AircraftApronService",
-        "projectPath": "D:\\AviationManagement\\AirOps\\AircraftApronService\\AircraftApronService.csproj",
+        "projectPath": "D:\\GIT\\aviation-management\\airops\\AircraftApronService\\AircraftApronService.csproj",
         "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-        "outputPath": "D:\\AviationManagement\\AirOps\\AircraftApronService\\obj\\",
+        "outputPath": "D:\\GIT\\aviation-management\\airops\\AircraftApronService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Roy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,7 +40,25 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[7.0.2, )"
             },
